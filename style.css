@@ -109,6 +109,7 @@ header{
     grid-row: 3/6;
     margin-top: 25px;
     margin-left: 25px;
+    font-size: 20px;
    
 }
 
@@ -124,6 +125,7 @@ header h1{
     margin: 0;
     margin-right: 113px;
     margin-bottom: 32px; 
+    font-weight: 500;
 }
 .rating{
     grid-column: 6/10;
@@ -134,15 +136,15 @@ header h1{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 45px;
+    height: 55px;
 }
 
 .rating .rating2{
-    transform: translate(25px);
+    transform: translate(30px);
 }
 
 .rating .rating3{
-    transform: translate(75px);
+    transform: translate(60px);
 }
 /* .reviews div{
     margin: 0;
